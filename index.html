@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Naii ❤️</title>
+<style>
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:linear-gradient(135deg,#ffd6e7,#ffe9f3);
+        font-family:Arial,sans-serif;
+        text-align:center;
+    }
+
+    .card{
+        background:white;
+        padding:40px;
+        border-radius:20px;
+        max-width:600px;
+        box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    h1{
+        color:#ff4f81;
+    }
+
+    p{
+        line-height:1.7;
+        color:#444;
+    }
+
+    button{
+        background:#ff4f81;
+        color:white;
+        border:none;
+        padding:12px 24px;
+        border-radius:10px;
+        cursor:pointer;
+        font-size:16px;
+    }
+
+    #pesan{
+        display:none;
+        margin-top:20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Hai, Enai ❤️</h1>
+
+    <p>
+        Aku mau minta maaf.
+        Mungkin ada sikap dan perkataanku yang bikin kamu kecewa,
+        sedih, atau capek menghadapi aku.
+    </p>
+
+    <button onclick="bukaPesan()">Klik Ini</button>
+
+    <div id="pesan">
+        <p>
+            Aku minta maaf yaa belum jadi cowo yang kamu inginkan,
+            jauh dari kata itu.
+            Tapi makasih yaa karna masih mau sama aku udah sejauh ini. ^-^.
+        </p>
+
+        <p>
+            Dan maaf yaa kita belum bisa banyak main dulu,
+            Because my money udah meninggalkanku,
+            Nanti pas aku udah kerja dan udah gajian aku ajak kamu jalan jalan pas kita libur yaa.
+        </p>
+
+        <h3>❤️</h3>
+    </div>
+</div>
+
+<script>
+function bukaPesan(){
+    document.getElementById("pesan").style.display="block";
+}
+</script>
+
+</body>
+</html>
